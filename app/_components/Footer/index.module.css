@@ -4,27 +4,26 @@
     color: var(--color-text-sub);
     font-size: 0.8rem;
     margin-top: 80px;
-}
-
-.nav {
+  }
+  
+  .nav {
     margin-bottom: 16px;
-}
-
-.items {
+  }
+  
+  .items {
     display: flex;
     justify-content: center;
     gap: 40px;
     font-size: 1rem;
     white-space: nowrap;
-}
-
-@media  (max-width: 640px) {
+  }
+  
+  @media (max-width: 640px) {
     .items {
-        flex-wrap: wrap;
-        gap: 8px 0;
+      flex-wrap: wrap;
+      gap: 8px 0;
     }
     .item {
-        width: 50%;
+      width: 50%;
     }
-}
-    
+  }
